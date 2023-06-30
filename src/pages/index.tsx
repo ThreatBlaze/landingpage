@@ -28,18 +28,17 @@ export default function Home() {
         >
           <Container maxWidth="sm">
             <Box textAlign="center" my={4}>
-              <img
-                src="/threatblaze-logo.svg" // Replace with your company logo
+              <Image
+                src="/threatblaze-logo.svg"
                 alt="Under Construction"
+                height={120}
                 width={120}
               />
-
               <Typography variant="h4" component="h1" mt={2} fontWeight="bold">
                 ThreatBlaze
               </Typography>
-
               <Typography variant="body1" mt={2}>
-                🚧 We're working on something awesome! 🚧
+                🚧 We&apos;re working on something awesome! 🚧
               </Typography>
             </Box>
           </Container>
